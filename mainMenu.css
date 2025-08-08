@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "VHS";
+  src: url("fonts/easvhs.ttf") format("truetype");
+}
+
+/*Classes already provided*/
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #0000FF;
+  display: grid;
+}
+
+body {
+  font-family: "VHS";
+  color: white;
+  height: 100%;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  place-items: bottom; 
+  text-align: left;
+  font-size: 34px;
+}
+
+header {
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  place-items: top; 
+}
+
+nav {
+  font-size: 36px;
+  padding: 20px;
+}
+
+ul, li {
+  list-style: none; 
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: white; 
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  background: red;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+tr {
+  padding: 0px;
+  margin: 0px;
+}
+
+td {
+  padding: 0px;
+  margin: 0px;
+  width: 33%;
+}
+
+/* CLasses I have created*/
+
+.mainHeader {
+   font-size: 34px;
+}
+
+.secondaryHeader {
+  font-size: 34px;
+}

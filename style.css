@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Mario Kart";
+  src: url("fonts/Mario-Kart-DS.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Start";
+  src: url("fonts/press_start_2p/PressStart2P.ttf") format("truetype");
+}
+
+/*Classes already provided*/
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  display: grid;
+}
+
+body {
+  font-family: "Start";
+  color: white;
+  height: 100%;
+}
+
+footer {
+  padding: 20px;
+  place-items: bottom; 
+}
+
+main {
+  place-items: center;
+}
+
+header {
+  text-align: right;
+  font-size: 10px;
+  padding: 20px;
+  place-items: top; 
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none; 
+  padding: 0px;
+  margin: 0px;
+}
+
+div {
+
+}
+
+/*Classes I have created*/
+.title {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Mario Kart";
+  background: -webkit-linear-gradient(#00B7FF, #8FD311);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navigation {
+  font-size: 24px;
+  text-align: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover, a:active, a:focus {
+  outline: 1px solid;
+  outline-color: #8FD311;
+  outline-offset: 2px;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(#00B7FF, #8FD311);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navigation li {
+  padding: 5px; 
+}
+
+.version {
+  text-align: center;
+  font-size: 10px; 
+}
+
+.info {
+  width: 15px;
+  height: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 50%;
+  color: black;
+}
+
+.infoPopUp {
+  position: relative;
+  display: inline-block;
+  cursor: pointer; 
+}
+
+.infoPopUp .popup {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.infoPopUp .popup::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.infoPopUp .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

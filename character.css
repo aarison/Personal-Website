@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "8 Bit";
+  src: url("fonts/8_bit_arcade/8-bit Arcade In.ttf") format("truetype");
+}
+
+/*Classes already provided*/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "8 Bit";
+}
+
+body {
+  padding: 50px;
+  color: white;
+  background-color: #800020;
+}
+
+h1 {
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
+}
+
+header {
+  outline: 1px solid;
+  outline-color: white;
+  outline-offset: 2px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+main {
+  outline: 1px solid;
+  outline-color: white;
+  outline-offset: 2px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  height: 65%;
+}
+
+footer {
+  outline: 1px solid;
+  outline-color: white;
+  outline-offset: 2px;
+  border-radius: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #E1C16E;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+tr {
+}
+
+.picture {
+  outline: 1px solid;
+  outline-color: white;
+  outline-offset: 2px;
+  border-radius: 2px;
+}

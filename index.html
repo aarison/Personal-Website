@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Arison - Home</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <header>
+      <div class="info">
+        <div class="infoPopUp" onclick="myFunction()">i
+          <span class="popup" id="myPopup">testing testing testing</span>
+        </div>
+      </div>
+      <script>
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+      </script>
+    </header>
+    <main>
+      <div class="title">Ariel Arison</div>
+    </main>
+    <nav class="navigation">
+      <ul>
+        <li><a href="/mainMenu.html">MAIN MENU</a></li>
+        <li><a href="/character.html">CHARACTER</a></li>
+        <li><a href="/stats.html">STATS</a></li>
+        <li><a href="/inventory.html">INVENTORY</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <div class="version">Version 7.30.25</div>
+    </footer>
+  </body>
+</html>
